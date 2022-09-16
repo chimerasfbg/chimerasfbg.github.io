@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@200;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+.container{
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    font-family: 'EB Garamond';  
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #788F58;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.name h1{
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.name h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.resume{
+    display: flex;
+}
+
+.left{
+    width: 45%;
+    font-weight: 100;
+    text-align: end;
+}
+.bar{
+    width: 10%;
+}
+.right{
+    width: 45%;
+}
+
+.tech{
+    margin-right: 10px;
+}
+
+.resume{
+    margin-top:40px;
+}
+.resume h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:10px;
+}
+
+.resume h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.resume p,ul,li{
+    font-size: 18px;
+    font-weight: 500;
+}
+.lng{
+    padding-top:20px;
+}
+.contact a{
+    text-decoration: none;
+    color: #788F58;
+}
+/* VERTICAL */
+.bar{
+    height: 100vh;
+    border: none;
+    display: flex;
+    justify-content: center;
+
+}
+.line{
+    border: 2px dotted #788F58;
+    height: inherit;
+    width: 1px;
+    align-items: center;
+    position: relative;
+}
+/* HORIZONTAL DASH */
+.sc{
+    height: 1px;
+    z-index: 1;
+    border:1px solid #788F58;
+    position:absolute;
+}
+.sc1{
+    width: 70px;
+    top:25px;
+    right:-35px;
+}
+.sc2{
+    width:35px;
+    top:170px;
+}
+.sc3{
+    width:35px;
+    top:220px;
+    right:0;
+}
+.sc4{
+    width:35px;
+    top:355px;
+    right:0px;
+}
+.sc5{
+    width:35px;
+    top:660px;
+    right:0px;
+}
+
+/* CIRCLE  */
+.c{
+    border: 1px solid #788F58;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #788F58;
+    z-index: 1;
+    position:absolute;
+}
+.c1{
+    top:-5px;
+    left:29px;
+}
+.c2{
+    top:-5px;
+    left:-5px;
+}
+.c3 , .c4 , .c5{
+    top:-5px;
+    right:-5px; 
+}
+
+.progress-bar-striped {
+    background-color: #788F58 !important;
+    
+}
+.progress-bar{
+    color: black;
+}
+
+.proEx li{
+    list-style-type: square;
+}
+
